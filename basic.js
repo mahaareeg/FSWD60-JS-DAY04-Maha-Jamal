@@ -16,3 +16,12 @@ function subs(par1,par2){
    document.write("<br>" + elstr);
 }
 subs("I am a hero from World of Warcraft",12);
+
+
+function personal(name,surname,age){
+	
+	
+	return ("Hi i am " + name + " " + surname +" "+ age + "years old" );
+}
+document.write(personal ("jamal","Ahmed", 30));
+
