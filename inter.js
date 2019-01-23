@@ -9,6 +9,17 @@ function HotelConstructor(name,rooms,booked){
         
     };
 }
+<<<<<<< HEAD
+
+var hotel = ['Areeg', 'Memo', 'Trend']
+var hotel = new HotelConstructor("Areeg",20,10);
+console.log(hotel.checkAvailabilty());
+
+
+
+var hotel = new HotelConstructor("Memo",10,3);
+document.write(hotel.checkAvailabilty());
+=======
 var random1=Math.floor(Math.random()*10)
 var random2=Math.floor(Math.random()*20)
 var random3=Math.floor(Math.random()*30)
@@ -41,3 +52,4 @@ if(trendHotel.checkAvailabilty() >= night){
     document.write("sorry, no rooms available")
 }
 
+>>>>>>> 58f0355a1d71f7c62c36c9ea3fa0df5ab11c414f
