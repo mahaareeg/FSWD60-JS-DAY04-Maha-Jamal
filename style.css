@@ -1,0 +1,8 @@
+body{
+	background-color: lightgrey;
+}
+.button {border-radius: 12px;
+margin: 10px;
+display: flex;
+
+}
