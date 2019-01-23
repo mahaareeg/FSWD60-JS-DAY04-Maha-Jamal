@@ -9,5 +9,12 @@ function HotelConstructor(name,rooms,booked, Avnight,wantNight){
         
     };
 }
+
+var hotel = ['Areeg', 'Memo', 'Trend']
 var hotel = new HotelConstructor("Areeg",20,10);
 console.log(hotel.checkAvailabilty());
+
+
+
+var hotel = new HotelConstructor("Memo",10,3);
+document.write(hotel.checkAvailabilty());
