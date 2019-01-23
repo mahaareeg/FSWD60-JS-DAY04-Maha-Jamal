@@ -21,21 +21,22 @@ var trendHotel= new HotelConstructor("Trend",30,random3);
 
  }
 if(areegHotel.checkAvailabilty() >= night){
-    document.getElementById('color').innerHTML="We have available rooms" + areegHotel;
-     document.getElementById("color").style.backgroundColor="#ff0076";
+    document.getElementById('color').innerHTML= "We have available rooms"  ;
+     document.getElementById("color").style.backgroundColor="green" ;
 }else {
-    document.write("sorry, no rooms available" + areegHotel)
+    document.write("sorry, no rooms available");
 }
 
 
-
 if(memoHotel.checkAvailabilty() >= night){
-    document.write("i will resive")
+    document.getElementById('color').innerHTML= "We have available rooms"  ;
+     document.getElementById("color").style.backgroundColor="red" ;
 }else {
     document.write("sorry, no rooms available")
 }
 if(trendHotel.checkAvailabilty() >= night){
-    document.write("i will resive")
+   document.getElementById('color').innerHTML= "We have available rooms"  ;
+     document.getElementById("color").style.backgroundColor="tomato" ;
 }else {
     document.write("sorry, no rooms available")
 }
